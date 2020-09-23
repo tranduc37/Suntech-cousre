@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+.contain {
+    width: 100%;
+}
+.header .logo {
+    background-color: springgreen;
+}
+.header .logo img {
+    float: left;
+    width: 150px;
+    margin-top: 2px;
+}
+.header .wellcome h1 {
+    margin-left: 300px;
+    color: rgb(247, 149, 68);
+}
+.nav-bar {
+    background-color: rgb(196, 174, 174);
+    overflow: hidden;
+}
+.nav-bar ul {
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.nav-bar ul li {
+    list-style: none;
+    padding: 10px 49px;
+    float: left;
+    color: royalblue;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+}
+.contain-left {
+    width: 70%;
+    float: left;
+}
+.contain-main {
+    float: left;
+}
+.contain-1 {
+    margin-top: 10px;
+}
+.contain-1 .contain-image a img {
+max-width: 100%;
+}
+.contain-1 .contain-text {
+    float: left;
+    width: 70%;
+}
+.contain-1 .contain-text p {
+    padding-left: 10px;
+}
+.contain-main2 {
+    float: left;
+}
+.contain-image {
+    float: left;
+    width: 30%;
+}
+.contain-right {
+    width: 30%;
+    float: right;
+}
+.contain-right .promotion img {
+    width: 100%;
+}
+
+
